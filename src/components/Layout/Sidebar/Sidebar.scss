@@ -8,6 +8,10 @@
     align-items: center;
     padding: 10px 0;
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
   
     & .logo {
       margin-bottom: 20px;
@@ -44,6 +48,10 @@
           visibility: visible;
         }
       }
+    }
+
+    .sidebarBtn{
+      bottom: 5%;
     }
   }
   

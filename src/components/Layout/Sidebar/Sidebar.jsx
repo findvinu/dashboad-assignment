@@ -13,8 +13,9 @@ import "./Sidebar.scss";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <img className="logo" src={Logo} alt="logo" />
       <Box>
+        <img className="logo" src={Logo} alt="logo" />
+
         <IconButton color="inherit">
           <HomeOutlinedIcon />
         </IconButton>
@@ -31,7 +32,7 @@ const Sidebar = () => {
           <ShoppingBagOutlinedIcon />
         </IconButton>
       </Box>
-      <IconButton>
+      <IconButton className="sidebarBtn">
         <img src={SidebarBtn} alt="sidebar" />
       </IconButton>
     </div>
