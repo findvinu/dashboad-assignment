@@ -1,0 +1,53 @@
+.tableWrapper{
+  background-color: transparent !important;
+}
+
+.userName {
+  display: flex;
+  align-items: center;
+
+  & .userNameText{
+    margin-left: 10px;
+  }
+}
+.table {
+  background-color: transparent;
+  color: #ffffff;
+
+  & th {
+    color: #f7f6fb;
+    font-weight: bold;
+    border-bottom: 1px solid #373a41;
+  }
+
+  & th,
+  & td {
+    color: #c6c7cb;
+    padding: 10px 0;
+  }
+
+  & td {
+    border-bottom: 1px solid #373a41;
+  }
+
+  & tr:last-child td {
+    border-bottom: none;
+  }
+
+  & .customBtn {
+    padding: 2px 15px;
+    border-radius: 100px;
+    text-transform: capitalize;
+  }
+
+  & .deliveredBtn {
+    background-color: #165447;
+    color: #00c086;
+  }
+
+  & .cancelledBtn,
+  & .pendingBtn {
+    background-color: #5e3138;
+    color: #dd594d;
+  }
+}

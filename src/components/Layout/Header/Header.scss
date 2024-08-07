@@ -1,0 +1,47 @@
+header.header {
+    background-color: #1e1e1e;
+    box-shadow: none;
+    padding: 10px 0;
+  
+    & .headerInner,
+    & .header-icon,
+    .feedbackUser {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      & .searchInput {
+        background-color: #2a2b30;
+        border: 1px solid #2a2b30;
+        border-radius: 5px;
+  
+        & button {
+          color: #a1a19f;
+        }
+      }
+    }
+  
+    & .header-icon {
+      & button,
+      .profile-pic {
+        background-color: #44454a;
+        margin-left: 15px;
+        color: #a1a19f;
+        outline: none;
+  
+        & .notify {
+          background-color: #7095ff;
+          width: 10px;
+          height: 10px;
+          border-radius: 5px;
+          position: absolute;
+          margin-top: -10px;
+          margin-right: -10px;
+        }
+        &:focus {
+          border: 1px solid #2a2b30;         
+        }
+      }
+    }
+  }
+  

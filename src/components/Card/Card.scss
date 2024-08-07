@@ -1,0 +1,54 @@
+.card {
+
+    & .cardText {
+      color: #d7d6db;
+    }
+
+    .cardContent {
+      padding-bottom: 16px !important;
+    }
+
+    & .cardFooter {
+      margin-top: 20px;
+    }
+
+    & .cardFooter,
+    & .percent,
+    .charHead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &.up {
+        color: #0ac78f;
+      }
+
+      &.down {
+        color: #e75653;
+      }
+    }
+
+    .selectWrapper {
+      .select {
+        background-color: #4c4d52;
+        border: 1px solid #605f65;
+        border-radius: 100px;
+
+        &:hover {
+          border: 1px solid #605f65;
+        }
+
+        & svg {
+          color: #cdced0;
+        }
+
+        & fieldset {
+          border: none;
+        }
+      }
+
+      & label {
+        color: #cdced0;
+      }
+    }
+  }

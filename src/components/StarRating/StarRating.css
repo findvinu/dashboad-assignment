@@ -1,0 +1,10 @@
+.select {
+    color: gold; /* Example styling */
+    cursor: pointer;
+  }
+  
+  .star-icon {
+    cursor: pointer;
+    color: #d9d9d7;
+  }
+  

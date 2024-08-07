@@ -1,0 +1,11 @@
+
+.activityChart{
+
+    text{
+      fill: #fff !important;
+    }
+    rect{
+      fill: #7294ff;
+      border-radius: 10px;
+    }
+  }

@@ -1,0 +1,8 @@
+.chart {
+    svg{
+        text{
+            fill: #fff;
+            font-weight: bolder;
+        }
+    }
+}

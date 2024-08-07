@@ -1,0 +1,34 @@
+.goalList {
+    & .listIcon {
+      width: 65px;
+      height: 65px;
+      margin-right: 20px;
+  
+      & svg {
+        width: 30px;
+        height: 30px;
+      }
+  
+      &.goalsIcon {
+        background-color: #5f3237;
+        color: #f76d25;
+      }
+  
+      &.dishesIcon {
+        background-color: #283263;
+        color: #6a87ef;
+      }
+  
+      &.menusIcon {
+        background-color: #214a60;
+        color: #24a4e1;
+      }
+    }
+  
+    & button {
+      width: 30px;
+      height: 30px;
+      background-color: #4b4c51;
+      color: #feffff;
+    }
+  }

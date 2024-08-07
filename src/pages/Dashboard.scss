@@ -1,0 +1,50 @@
+
+.contentArea {
+    margin-top: 20px;
+  
+    & .dashboard-heading {
+      margin: 20px 0;
+    }
+  
+    .card {
+      background-color: #202028;
+      color: #ffffff;
+      margin-bottom: 10px;
+      border-radius: 8px;  
+    }
+  }
+  
+  .net-profit {
+    height: 155px;
+  
+    .profitChartWrapper {
+      .percent {
+        justify-content: flex-start;
+        margin-top: 10px;
+  
+        &.up {
+          color: #6ee95a;
+        }
+      }
+    }
+  }
+    
+  .profitChartWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .netProfitText {
+      margin-bottom: 30px;
+    }
+  
+    .profitChart {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      span {
+        font-size: 10px;
+      }
+    }
+  }
