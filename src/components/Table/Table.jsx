@@ -85,8 +85,22 @@ const rows = [
 
 const TableComponent = () => {
   return (
-    <TableContainer component={Paper} className="tableWrapper">
-      <Table sx={{ minWidth: 650 }} aria-label="simple table" className="table">
+    <TableContainer
+      component={Paper}
+      className="tableWrapper"
+      sx={{ overflowX: "auto" }}
+    >
+      <Table
+        sx={{
+          minWidth: {
+            xs: 300,
+            sm: 500,
+            md: 650,
+          },
+        }}
+        aria-label="simple table"
+        className="table"
+      >
         <TableHead>
           <TableRow>
             <TableCell>Customer</TableCell>
@@ -96,9 +110,9 @@ const TableComponent = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
+          {rows.map((row, inx) => (
             <TableRow
-              key={row.name}
+              key={inx}
               sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
             >
               <TableCell component="th" scope="row">
@@ -110,7 +124,6 @@ const TableComponent = () => {
               <TableCell align="right">{row.protein}</TableCell>
             </TableRow>
           ))}
-        
         </TableBody>
       </Table>
     </TableContainer>
